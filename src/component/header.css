@@ -1,0 +1,122 @@
+.civil-guruji-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.left-header {
+  display: flex;
+  align-items: end;
+}
+.civil-guruji-logo {
+  width: 60px;
+}
+.logo-title {
+  font-weight: 900;
+  font-family: initial;
+  font-size: 18px;
+  margin: 0px 8px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  padding: 4px 11px;
+  background-color: #292a2e;
+  color: #d7d7d7;
+  border: 1px solid #d7d7d7;
+  border-radius: 6px;
+  font-size: 18px;
+}
+.menu2 {
+  padding: 4px 44px;
+  margin-left: 60px;
+}
+.show-menu ul li {
+  list-style: none;
+}
+.show {
+  opacity: 1;
+}
+ul.fade.dropdown-menu-list.show {
+  margin: 4px 20px;
+  padding: 10px 51px;
+  background-color: #292a2e;
+  color: #d7d7d7;
+  border: 1px solid #d7d7d7;
+  border-radius: 8px;
+}
+.dropdown-list{
+  list-style: none;
+  margin: 5px 0px;
+  border-bottom: 1px solid #706c6c9e;
+}
+.dropdown-list a {
+  color: #d9008d;
+}
+
+@media (max-width: 768px) {
+  .civil-guruji-header {
+    margin-bottom: 33px;
+}
+  .logo-title {
+    margin: 0px 0px;
+  }
+  .left-header {
+    display: block
+  }
+
+  .mobile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mobile-logo {
+    margin-bottom: 10px;
+  }
+
+  .menu {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+  }
+
+  .menu-button {
+    background-color: #292a2e;
+    color: #d7d7d7;
+    border: 1px solid #d7d7d7;
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .close-icon {
+    margin-right: 5px;
+  }
+
+  .login-register {
+    color: #d7d7d7;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  ul.fade.dropdown-menu-list.show {
+    margin: 4px 0;
+    padding: 10px 20px;
+    background-color: #292a2e;
+    color: #d7d7d7;
+    border: 1px solid #d7d7d7;
+    border-radius: 8px;
+  }
+
+  .dropdown-list {
+    list-style: none;
+    margin: 5px 0px;
+  }
+
+  .dropdown-list a {
+    color: #d9008d;
+  }
+}
