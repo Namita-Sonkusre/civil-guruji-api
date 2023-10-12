@@ -34,7 +34,7 @@ const Section22 = () => {
     AdjustSlide()
   },[])
     var settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 1500,
         centerMode: true,

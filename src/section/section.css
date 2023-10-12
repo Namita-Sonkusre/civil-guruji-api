@@ -573,3 +573,13 @@ img.construction {
     background-color: #474747
 }
 }
+.bg{
+  background-color: #ccc;
+  color: black;
+}
+.courses{
+  & > .slick-track{
+    width: auto !important;
+  }
+
+}
